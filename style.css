@@ -1,0 +1,336 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.home {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: #191919;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: aquamarine;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+nav ul li a:hover {
+    color: aquamarine;
+    transition: 0.5s;
+}
+.btn {
+    background-color: aquamarine;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: transform .5s;
+}
+.btn:hover {
+    transform: scale(1.2);
+    border: 2px solid aquamarine;
+    background-color: transparent;   
+}
+.image {
+    width: 40%;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+}
+.image img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 23%;
+    transform: translateX(20%);
+}
+.content {
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h4 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+h1 {
+    color: white;
+    font-size: 65px;
+    margin: 20px 0 20px;
+}
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.content a {
+    font-size: 20px;
+    background: aquamarine;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid white;
+    transition: .5s;
+}
+.content a:hover {
+    background: transparent;
+    border: 2px solid aquamarine;
+}
+.about {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #191919;
+}
+.about-me {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-me img {
+    height: auto;
+    width: 430px;
+    border-radius: 10px;
+}
+.about-text {
+    width: 550px;
+}
+.about-text h2 {
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid aquamarine;
+}
+.about-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p {
+    color: rgb(216, 240, 255);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+.button {
+    background-color: aquamarine;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+}
+.button:hover {
+    background-color: transparent;
+    border: 2px solid aquamarine;
+    cursor: pointer;
+}
+.gallery {
+    background: #101010;
+    width: 100%;
+    padding: 100px 0;
+}
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 100%;
+    margin-bottom: 30px auto;
+    text-align: center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card {
+    height: 365px;
+    width: 300px;
+    padding: 20px 35px;
+    background: #141414;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid aquamarine;
+}
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: aquamarine;
+}
+.pra p a {
+    background-color: aquamarine;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+}
+.pra img {
+    width: 200px;
+    height: 200px;
+    position:relative;
+    top:-10px;
+}
+.pra p a:hover {
+    background-color: transparent;
+    border: 2px solid aquamarine;
+    cursor: pointer;
+}
+.card h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.contact-me {
+    width: 100%;
+
+    background-color: #101010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact-text h2 {
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact-box {
+    color: white;
+}
+.contact-box:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.contact {
+    width: 25%;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+.contact h4 {
+    color: aquamarine;
+    padding-bottom: 18px;
+}
+.contact p {
+    color: white;
+    font-size: 18px;
+}
+footer {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p {
+    color: rgb(204, 224, 217);
+}
+.sosial {
+    display: flex;
+}
+.sosial a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: aquamarine;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    border: 2px solid aquamarine;
+}
+.sosial a:hover {
+    background-color: transparent;
+    transform: scale(1.3);
+    transition: 0.5;
+    border: 2px solid aquamarine;
+    cursor: pointer;
+}
+.end {
+    position: absolute;
+    color: white;
+    bottom: 65px;
+}
+.key i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: aquamarine;
+}
+.key h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.ke p {
+    color: #fcfcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.ke p a {
+    background-color: aquamarine;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+}
+.ke p a:hover {
+    background-color: transparent;
+    border: 2px solid aquamarine;
+    cursor: pointer;
+}
